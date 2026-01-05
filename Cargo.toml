@@ -1,0 +1,12 @@
+[package]
+name = "prefab"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { git = "https://github.com/cart/bevy", branch = "next-gen-scenes" }
+thiserror = "2.0.17"
+
+[dev-dependencies]
+thiserror = "2.0.17"
+
