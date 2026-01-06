@@ -1,5 +1,5 @@
 use bevy::prelude::*;
-use prefab::{CloneFromPrefab, Domain, Prefab, PrefabPlugin, ReferencePrefab};
+use bevy_prefab_entities::prelude::*;
 
 #[derive(Component, Reflect, Default, Debug)]
 #[relationship_target(relationship = PrefabRef)]

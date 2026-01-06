@@ -4,9 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-bevy = { git = "https://github.com/cart/bevy", branch = "next-gen-scenes" }
+bevy_app = "0.17.3"
+bevy_ecs = "0.17.3"
 thiserror = "2.0.17"
 
 [dev-dependencies]
-thiserror = "2.0.17"
+bevy = "0.17.3"
 
